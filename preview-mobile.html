@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HoopStats · Aperçu mobile</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: system-ui, sans-serif;
+        background: #0b1320;
+        color: #b5b5b5;
+      }
+
+      body { height: 100dvh; box-sizing: border-box; margin: 0; padding: 16px; }
+      main { display: grid; grid-template-rows: auto minmax(0, 1fr); width: max-content; height: 100%; margin-inline: auto; }
+      h1 { margin: 0 0 8px; text-align: center; font-size: 14px; font-weight: 650; }
+      iframe {
+        display: block;
+        box-sizing: border-box;
+        width: 402px;
+        height: min(792px, 100%);
+        min-height: 312px;
+        border: 6px solid #3c3c3c;
+        border-radius: 22px;
+        background: #0b1320;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Aperçu mobile · 390 px de large</h1>
+      <iframe src="./" title="HoopStats en format mobile"></iframe>
+    </main>
+  </body>
+</html>
